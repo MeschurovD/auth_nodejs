@@ -1,0 +1,27 @@
+{
+  "name": "auth_nodejs",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000u\u0000t\u0000h\u0000_\u0000n\u0000o\u0000d\u0000e\u0000j\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeschurovD/auth_nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeschurovD/auth_nodejs/issues"
+  },
+  "homepage": "https://github.com/MeschurovD/auth_nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.4",
+    "nodemon": "^2.0.12"
+  }
+}
